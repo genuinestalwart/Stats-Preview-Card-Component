@@ -85,6 +85,9 @@ p {
 main, ul {
     display: flex;
 }
+h2 {
+    margin: 5% 0;
+}
 li {
     width: 33%;
 }
