@@ -64,7 +64,7 @@ li > div {
 
 @media only screen and (min-width: 768px) {
 main {
-    margin: 10%;
+    margin: 12%;
 }
 #ih-mobile {
     display: none;
