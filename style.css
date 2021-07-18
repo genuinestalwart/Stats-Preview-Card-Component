@@ -73,6 +73,7 @@ main {
     border-radius: 7.5px 0 0 7.5px;
     padding: 4% 6%;
     text-align: left;
+    width: 50%;
 }
 #ih-desktop {
     display: block;
