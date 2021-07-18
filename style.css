@@ -41,6 +41,10 @@ h1, h2, p {
 h1, h2 {
     color: hsl(0, 0%, 100%);
 }
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.75em;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -72,6 +76,9 @@ main {
 }
 #ih-desktop {
     display: block;
+}
+p {
+    line-height: 1.5em;
 }
 main, ul {
     display: flex;
