@@ -57,7 +57,7 @@ h2 {
 }
 li > div {
     color: hsla(0, 0%, 100%, 0.6);
-    font-family: 'Lexend Deca', sans-serif;
+    font: .8em 'Lexend Deca', sans-serif;
 }
 
 /* Level 3 */
