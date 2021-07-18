@@ -53,7 +53,7 @@ li {
     margin-top: 12%;
 }
 h2 {
-    margin: 2.5% 0;
+    margin: 3% 0;
 }
 li > div {
     color: hsla(0, 0%, 100%, 0.6);
@@ -64,7 +64,7 @@ li > div {
 
 @media only screen and (min-width: 768px) {
 main {
-    margin: 8% 4%;
+    margin: 10%;
 }
 #ih-mobile {
     display: none;
