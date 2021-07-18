@@ -1,0 +1,82 @@
+/* Level 1 */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    margin: 0;
+}
+main {
+    background-color: hsl(275, 100%, 25%);
+    border-radius: 7.5px;
+    margin: 20% 7.5%;
+}
+img {
+    opacity: 0.4;
+}
+#ih-mobile {
+    border-radius: 7.5px 7.5px 0 0;
+    display: block;
+    width: 100%;
+}
+#card-body {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 0 0 7.5px 7.5px;
+    padding: 7.5%;
+    text-align: center;
+}
+#ih-desktop {
+    border-radius: 0 7.5px 7.5px 0;
+    display: none;
+    width: 50%;
+}
+
+/* Level 2 */
+
+h1, h2, p {
+    font-family: 'Inter', sans-serif;
+}
+h1, h2 {
+    color: hsl(0, 0%, 100%);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-top: 12%;
+}
+h2 {
+    margin: 2.5% 0;
+}
+li > div {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Level 3 */
+
+@media only screen and (min-width: 768px) {
+main {
+    margin: 8% 4%;
+}
+#ih-mobile {
+    display: none;
+}
+#card-body {
+    border-radius: 7.5px 0 0 7.5px;
+    padding: 4% 6%;
+    text-align: left;
+}
+#ih-desktop {
+    display: block;
+}
+main, ul {
+    display: flex;
+}
+li {
+    width: 33%;
+}
+}
